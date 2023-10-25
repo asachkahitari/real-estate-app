@@ -142,3 +142,9 @@ MESSAGE_TAGS = {
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'deeppak.21810454@viit.ac.in'
+EMAIL_HOST_PASSWORD = 'Deep@k1729'
+EMAIL_USE_TLS = True
